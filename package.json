@@ -1,0 +1,22 @@
+{
+  "name": "redis-caching-node",
+  "version": "1.0.0",
+  "description": "An example of a Redis cache with an express server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Nicolás Rodríguez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3",
+    "redis": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
